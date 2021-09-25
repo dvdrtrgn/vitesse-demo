@@ -12,3 +12,8 @@ const { t } = useI18n()
   <h3>hello there, {{ firstName }}</h3>
   <h5>{{ t('intro.desc') }}</h5>
 </template>
+
+<route lang="yaml">
+meta:
+  layout: top
+</route>
