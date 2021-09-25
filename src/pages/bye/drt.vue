@@ -8,12 +8,14 @@ const { t } = useI18n()
 
 <template>
   <Zinfo></Zinfo>
-  <Tester last-name="Turgeon"></Tester>
-  <h3>hello there, {{ firstName }}</h3>
+  <Tester class="bg-lime-400 rounded-1" last-name="Turgeon"></Tester>
+  <h3 class="text-4xl text-red-500">
+    hello there, {{ firstName }}
+  </h3>
   <h5>{{ t('intro.desc') }}</h5>
 </template>
 
 <route lang="yaml">
 meta:
-  layout: top
+  layout: home
 </route>
